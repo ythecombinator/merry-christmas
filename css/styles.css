@@ -16,6 +16,14 @@ h1 {
 
 }
 
+h2 {
+	text-align: right;
+	margin:0 5px 5px;
+	color: #4d79a4;
+	font-family: 'Raleway', sans-serif;
+
+}
+
 /* TREE */
 
 .pine {
@@ -604,6 +612,58 @@ box-shadow
 border-radius:0%;
 }
 
+/* SHARE BUTTONS */
+
+/* Share Div */
+
+.share {
+text-align: right;
+}
+
+/* Buttons Style */
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+	width: 4em;
+    opacity: 0.9;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+}
+
+.share-btn:hover {
+    color: #eeeeee;
+}
+
+.share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+/* Each Button */
+
+.share-btn.facebook { 
+	background: #3b5998; 
+}
+
+.share-btn.twitter { 
+	background: #55acee; 
+}
+
+.share-btn.google-plus { 
+	background: #dd4b39;
+}
+
+.share-btn.email { 
+	background: #444444; 
+}
+		
 /* KEYFRAMES */
 
 /* Lights 1 */
