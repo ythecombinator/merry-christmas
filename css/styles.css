@@ -342,7 +342,7 @@ h2 {
 
 /* LIGHTS */
 
-.light-1, .light-2, .light-3, .light-4, .light-5, .light-6, .light-7, .light-8, .light-9 {
+.light-1, .light-2, .light-3, .light-4, .light-5, .light-6, .light-7, .light-8, .light-9, .light-10, .light-11, .light-12 {
 	background-color: red;
 	border-radius: 40px;
 	width: 25px;
@@ -402,6 +402,77 @@ h2 {
 	right: 53%;
 	animation: lights 5s infinite;
 	-webkit-animation: lights 5s infinite;
+}
+.light-10 {
+	top: 400px;
+	right: 51%;
+	animation: lights 5s infinite;
+	-webkit-animation: lights 5s infinite;
+}
+.light-11 {
+	top: 450px;
+	right: 45%;
+	animation: lights 5s infinite;
+	-webkit-animation: lights 5s infinite;
+}
+.light-12 {
+	top: 250px;
+	right: 50%;
+	animation: lights 5s infinite;
+	-webkit-animation: lights 5s infinite;
+}
+
+/* STAR */
+
+.star {
+  position: relative;
+  display: block;
+  top: -1250px;
+  margin: auto;
+  width: 0px;
+  height: 0px;
+  border-right: 120px solid transparent;
+  border-bottom: 90px solid rgb(242,233,37);
+  border-left: 120px solid transparent;
+  -webkit-transform: rotate(37deg) scale(.3);
+  -moz-transform: rotate(37deg) scale(.3);
+  -ms-transform: rotate(37deg) scale(.3);
+  -o-transform: rotate(37deg) scale(.3);
+  transform: rotate(37deg) scale(.3);
+}
+.star:before {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: -56px;
+  left: -72px;
+  content: "";
+  border-bottom: 84px solid rgb(242,233,37);
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  -webkit-transform: rotate(323deg);
+  -moz-transform: rotate(323deg);
+  -ms-transform: rotate(323deg);
+  -o-transform: rotate(323deg);
+  transform: rotate(323deg);
+}
+.star:after {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: -120px;
+  content: "";
+  border-right: 120px solid transparent;
+  border-bottom: 90px solid rgb(242,233,37);
+  border-left: 120px solid transparent;
+  -webkit-transform: rotate(286deg);
+  -moz-transform: rotate(286deg);
+  -ms-transform: rotate(286deg);
+  -o-transform: rotate(286deg);
+  transform: rotate(286deg);
 }
 
 /* LAND */
